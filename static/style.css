@@ -1,0 +1,91 @@
+/* Apply a subtle pastel background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f7e8df 0%, #d4e5ef 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    text-align: center;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Softer background */
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Stick to the top */
+    top: 0;
+    z-index: 900;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #555; /* Softer text color */
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+/* Container for the map */
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px; /* Adjust for header height */
+    flex-grow: 1;
+}
+
+img {
+    max-width: 100%;
+    max-height: 70vh; /* Map takes up more vertical space */
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+button {
+    background-color: #b1c7d6; /* Softer pastel button */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #9bb0c4; /* Softer hover effect */
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(255, 255, 255, 0.8); /* Lighter footer background */
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
