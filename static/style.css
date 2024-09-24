@@ -1,4 +1,3 @@
-/* Apply a subtle pastel background */
 body {
     margin: 0;
     padding: 0;
@@ -6,20 +5,67 @@ body {
     background: linear-gradient(135deg, #f7e8df 0%, #d4e5ef 100%);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     justify-content: flex-start;
     min-height: 100vh;
     text-align: center;
     color: #333;
 }
 
+
+.map-container {
+    display:flex; /*z*/
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px; 
+    flex-grow: 1;
+}
+
+img {
+    max-width: 100%;
+    max-height: 70vh; 
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Test Dot */
+
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: red; /* Default color if JavaScript fails */
+    border-radius: 50%; /* Makes the div a circle */
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    position: absolute;
+    bottom:100px;
+    left:100px;
+}
+
+
+
+
+
+
+
 /* Header styles */
 header {
-    background-color: rgba(255, 255, 255, 0.8); /* Softer background */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 1rem;
     width: 100%;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    position: fixed; /* Stick to the top */
+    position: fixed; 
     top: 0;
     z-index: 900;
 }
@@ -30,7 +76,7 @@ header h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
-    color: #555; /* Softer text color */
+    color: #555; 
 }
 
 header p {
@@ -38,26 +84,13 @@ header p {
     margin-top: 0.2rem;
 }
 
-/* Container for the map */
-.map-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 120px; /* Adjust for header height */
-    flex-grow: 1;
-}
 
-img {
-    max-width: 100%;
-    max-height: 70vh; /* Map takes up more vertical space */
-    border: 2px solid #ddd;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+
+
 
 /* Button styles */
 button {
-    background-color: #b1c7d6; /* Softer pastel button */
+    background-color: #b1c7d6; 
     color: white;
     padding: 15px 30px;
     font-size: 18px;
@@ -70,7 +103,7 @@ button {
 }
 
 button:hover {
-    background-color: #9bb0c4; /* Softer hover effect */
+    background-color: #9bb0c4; 
 }
 
 button:focus {
@@ -79,7 +112,7 @@ button:focus {
 
 /* Footer styles */
 footer {
-    background-color: rgba(255, 255, 255, 0.8); /* Lighter footer background */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 1rem;
     width: 100%;
     position: fixed;
