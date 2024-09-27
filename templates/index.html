@@ -8,7 +8,6 @@
 </head>
 <body>
 
-
     <header>
         <h1>RoomFinder</h1>
         <p>Find available rooms easily!</p>
@@ -16,12 +15,34 @@
 
     <div class="map-container">
         <img id="map" src="{{ url_for('static', filename='map1.jpg') }}" alt="Map 1">
+
+        <!-- Dot elements with IDs for each map -->
+        <div id="dot1" class="dot" data-map-index="0" style="left: 24%; top: 19%;"></div> <!-- Dot for map1 -->
+        <div id="dot2" class="dot" data-map-index="0" style="left: 31.3%; top: 18.5%;"></div> <!-- Dot for map2 -->
+        <div id="dot3" class="dot" data-map-index="0" style="left: 45%; top: 17.5%;"></div> 
+        <div id="dot4" class="dot" data-map-index="0" style="left: 24%; top: 33%;"></div> 
+        <div id="dot5" class="dot" data-map-index="0" style="left: 24.7%; top: 46%;"></div> 
+        <div id="dot6" class="dot" data-map-index="0" style="left: 25.2%; top: 57.5%;"></div> 
+        <div id="dot7" class="dot" data-map-index="0" style="left: 25.6%; top: 67.7%;"></div> 
+        <div id="dot8" class="dot" data-map-index="0" style="left: 31.1%; top: 67.3%;"></div> 
+        <div id="dot9" class="dot" data-map-index="0" style="left: 31.1%; top: 57.3%;"></div> 
+        <div id="dot10" class="dot" data-map-index="0" style="left: 31.1%; top: 46%;"></div> 
+        <div id="dot11" class="dot" data-map-index="0" style="left: 31.1%; top: 33%;"></div> 
+        <div id="dot12" class="dot" data-map-index="0" style="left: 38.1%; top: 32.5%;"></div> 
+        <div id="dot13" class="dot" data-map-index="0" style="left: 44.5%; top: 32.5%;"></div> 
+        <div id="dot14" class="dot" data-map-index="0" style="left: 51.8%; top: 32.5%;"></div> 
+        <div id="dot15" class="dot" data-map-index="0" style="left: 80%; top: 27.5%;"></div> 
+        <div id="dot16" class="dot" data-map-index="0" style="left: 72%; top: 75.7%;"></div> 
+        <div id="dot17" class="dot" data-map-index="0" style="left: 79%; top: 75.7%;"></div> 
+        <div id="dot18" class="dot" data-map-index="0" style="left: 86%; top: 75.7%;"></div> 
+
+
+
     </div>
     
     <button id="next-map-btn">Next Floor</button>
 
-   
-
+    <!-- Link to the external JavaScript file -->
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
