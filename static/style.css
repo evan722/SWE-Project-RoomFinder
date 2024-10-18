@@ -36,13 +36,16 @@ img {
 }
 
 /* Dot styles: positioning, size, shadow */
+/* Dot styles */
 .dot {
     position: absolute;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: grey; /* Default color */
 }
+
 
 /* Status dot: default styles */
 #status-dot {
