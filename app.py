@@ -23,8 +23,8 @@ data = data[~data['Room'].str.lower().isin(['', 'flexible', 'tbd', 'n/a'])]
 
 # Dictionary setup
 time_dict = {}
-start_minutes = 7 * 60
-end_minutes = 17 * 60
+start_minutes = 0
+end_minutes = 24 * 60
 for i in range(start_minutes, end_minutes + 1, 15):
     hours = i // 60
     minutes = i % 60
@@ -35,7 +35,11 @@ room = {}
 for room_name in data['Room']:
     if room_name not in room:
         room["RM " + str(room_name)] = time_dict
+print(data)
 print("Times dictionary: ", time_dict)
+print(room.get("RM 101"))
+print("start times", data["start_time"])
+print("end times", data["end_time"])
 # Time fetcher
 def round_to_next_15_minute_interval(timezone='America/Los_Angeles'):
     tz = pytz.timezone(timezone)
@@ -46,7 +50,7 @@ def round_to_next_15_minute_interval(timezone='America/Los_Angeles'):
         minutes_to_add = 15
     new_time = now + timedelta(minutes=minutes_to_add)
     print("Current time: ", new_time.strftime("%H:%M"))
-    return new_time.strftime("%H:%M")
+    return str(new_time.strftime("%H:%M"))
 
 @app.route('/')
 def index():
@@ -78,14 +82,19 @@ def get_room_status():
 # Room status checker (0 = empty, 1 = occupied)
 def roomchecker(room_index_holder, current_rounded_time):
     holder = room.get(room_index_holder)
+    print(holder)
     if holder and holder.get(current_rounded_time) == False:
-        print(room_index_holder, "is currently occupied")
-        return 1
-    else:
         print(room_index_holder, "is currently empty")
         return 0
+    else:
+        print(room_index_holder, "is currently occupied")
+        return 1
 
-print("checkpoint")
+current_time = round_to_next_15_minute_interval()
+current_time_in_minutes = int(current_time.split(':')[0]) * 60 + int(current_time.split(':')[1]) # in minutes
+current_time__interval_in_minutes = current_time_in_minutes + 15
+print(current_time_in_minutes)
+print(current_time__interval_in_minutes)
 
 if __name__ == '__main__':
     app.run(debug=True)
