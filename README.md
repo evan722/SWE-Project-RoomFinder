@@ -35,11 +35,12 @@ pip3 install datetime
 ```bash
 python app.py
 ```
+Go to: http://127.0.0.1:5000
 
 
 
 ## Current list of errors
-```
+
 1. integration - script.js is not communicating with app.py for some reason
     fixed
 2. error where script.js expects different outputs then app.py (maybe)
@@ -61,4 +62,3 @@ python app.py
 10. some scripts may be running before others and therefore preventing them from outputing anything
     resolved
 11. 
-```
