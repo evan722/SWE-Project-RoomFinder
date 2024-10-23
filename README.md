@@ -41,14 +41,10 @@ Go to: http://127.0.0.1:5000
 
 ## Current list of errors
 
-1. integration - script.js is not communicating with app.py for some reason
-    fixed
-2. error where script.js expects different outputs then app.py (maybe)
-    fixed
-3. somehow app.py isnt running at all (none of the print statements are printing)
-    fixed
-4. points are named incorrectly and therefore correspond to the wrong variable names
-    fixed (mostly, new problem below)
+1. FIXED ~~integration - script.js is not communicating with app.py for some reason~~
+2. FIXED ~~error where script.js expects different outputs then app.py (maybe)~~
+3. FIXED ~~somehow app.py isnt running at all (none of the print statements are printing)~~
+4. FIXED (mostly) ~~points are named incorrectly and therefore correspond to the wrong variable names~~
 5. points stopped working, could be problem with data but when dummy data was inputted, points didnt change color
 
 6. points also arent reverting back to grey when corrsponding variable is deleted (not a rate limiting problem currently, but could lead to future errors)
@@ -61,4 +57,3 @@ Go to: http://127.0.0.1:5000
 
 10. some scripts may be running before others and therefore preventing them from outputing anything
     resolved
-11. 
