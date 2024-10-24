@@ -17,52 +17,59 @@
         <img id="map" src="{{ url_for('static', filename='map1.jpg') }}" alt="Map 1">
 
         <!-- Example dots (replace with your actual room IDs and positions) -->
-        <div id="RM 101" class="dot" data-map-index="0" style="left: 24%; top: 19%;"></div> <!-- Dot for map1 -->
-        <div id="RM 103" class="dot" data-map-index="0" style="left: 31.3%; top: 18.5%;"></div> <!-- Dot for map2 -->
-        <div id="RM 106" class="dot" data-map-index="0" style="left: 45%; top: 17.5%;"></div> 
-        <div id="RM 117" class="dot" data-map-index="0" style="left: 24%; top: 33%;"></div> 
-        <div id="RM 1103" class="dot" data-map-index="0" style="left: 24.7%; top: 46%;"></div> 
-        <div id="RM 1106" class="dot" data-map-index="0" style="left: 25.2%; top: 57.5%;"></div> 
-        <div id="RM 1108" class="dot" data-map-index="0" style="left: 25.6%; top: 67.7%;"></div> 
-        <div id="RM 1109" class="dot" data-map-index="0" style="left: 31.1%; top: 67.3%;"></div> 
-        <div id="RM 1105" class="dot" data-map-index="0" style="left: 31.1%; top: 57.3%;"></div> 
-        <div id="RM 1102" class="dot" data-map-index="0" style="left: 31.1%; top: 46%;"></div> 
-        <div id="RM 115" class="dot" data-map-index="0" style="left: 31.1%; top: 33%;"></div> 
-        <div id="RM 114" class="dot" data-map-index="0" style="left: 38.1%; top: 32.5%;"></div> 
-        <div id="RM 113" class="dot" data-map-index="0" style="left: 44.5%; top: 32.5%;"></div> 
-        <div id="RM 112" class="dot" data-map-index="0" style="left: 51.8%; top: 32.5%;"></div> 
-        <div id="RM Cafe" class="dot" data-map-index="0" style="left: 80%; top: 27.5%;"></div> 
-        <div id="RM 175C" class="dot" data-map-index="0" style="left: 72%; top: 75.7%;"></div> 
-        <div id="RM 175B" class="dot" data-map-index="0" style="left: 79%; top: 75.7%;"></div> 
-        <div id="RM 175A" class="dot" data-map-index="0" style="left: 86%; top: 75.7%;"></div> 
-        <div id="RM 203" class="dot" data-map-index="1" style="left: 28.5%; top: 10%;"></div> 
-        <div id="RM 205" class="dot" data-map-index="1" style="left: 32.9%; top: 13%;"></div> 
-        <div id="RM 208" class="dot" data-map-index="1" style="left: 46.3%; top: 13%;"></div> 
-        <div id="RM 217" class="dot" data-map-index="1" style="left: 46.4%; top: 28.7%;"></div> 
-        <div id="RM 218" class="dot" data-map-index="1" style="left: 39.8%; top: 29.7%;"></div> 
-        <div id="RM 219" class="dot" data-map-index="1" style="left: 32.8%; top: 29.7%;"></div> 
-        <div id="RM 215" class="dot" data-map-index="1" style="left: 52.5%; top: 29.7%;"></div> 
-        <div id="RM 220" class="dot" data-map-index="1" style="left: 26.6%; top: 19.7%;"></div> 
-        <div id="RM 1202" class="dot" data-map-index="1" style="left: 26%; top: 40.5%;"></div> 
-        <div id="RM 1204" class="dot" data-map-index="1" style="left: 26.5%; top: 52.5%;"></div> 
-        <div id="RM 1206" class="dot" data-map-index="1" style="left: 27.5%; top: 64.5%;"></div> 
-        <div id="RM 240" class="dot" data-map-index="1" style="left: 77%; top: 9%;"></div> 
-        <div id="RM 247" class="dot" data-map-index="1" style="left: 75.5%; top: 31.8%;"></div> 
-        <div id="RM 245" class="dot" data-map-index="1" style="left: 81.5%; top: 31%;"></div> 
-        <div id="RM 302" class="dot" data-map-index="2" style="left: 27.4%; top: 16%;"></div> 
-        <div id="RM 304" class="dot" data-map-index="2" style="left: 32.4%; top: 20%;"></div> 
-        <div id="RM 319" class="dot" data-map-index="2" style="left: 32%; top: 41%;"></div> 
-        <div id="RM 318" class="dot" data-map-index="2" style="left: 38.5%; top: 41%;"></div> 
-        <div id="RM 317" class="dot" data-map-index="2" style="left: 44.7%; top: 41%;"></div> 
-        <div id="RM 316" class="dot" data-map-index="2" style="left: 50.7%; top: 41%;"></div> 
-        <div id="RM 309" class="dot" data-map-index="2" style="left: 52.3%; top: 13%;"></div> 
-        <div id="RM 307" class="dot" data-map-index="2" style="left: 45%; top: 19.5%;"></div> 
-        <div id="RM 305" class="dot" data-map-index="2" style="left: 40.5%; top: 11.3%;"></div> 
-        <div id="RM 340" class="dot" data-map-index="2" style="left: 74%; top: 14.3%;"></div> 
-        <div id="RM 346" class="dot" data-map-index="2" style="left: 73.5%; top: 44%;"></div> 
-        <div id="RM 345" class="dot" data-map-index="2" style="left: 78.5%; top: 45%;"></div> 
+        <div id="101" class="dot" data-map-index="0" style="left: 24%; top: 19%;"></div> <!-- Dot for map1 -->
+        <div id="103" class="dot" data-map-index="0" style="left: 31.3%; top: 18.5%;"></div> <!-- Dot for map2 -->
+        <div id="106" class="dot" data-map-index="0" style="left: 45%; top: 17.5%;"></div> 
+        <div id="117" class="dot" data-map-index="0" style="left: 24%; top: 33%;"></div> 
+        <div id="1103" class="dot" data-map-index="0" style="left: 24.7%; top: 46%;"></div> 
+        <div id="1106" class="dot" data-map-index="0" style="left: 25.2%; top: 57.5%;"></div> 
+        <div id="1108" class="dot" data-map-index="0" style="left: 25.6%; top: 67.7%;"></div> 
+        <div id="1109" class="dot" data-map-index="0" style="left: 31.1%; top: 67.3%;"></div> 
+        <div id="1105" class="dot" data-map-index="0" style="left: 31.1%; top: 57.3%;"></div> 
+        <div id="1102" class="dot" data-map-index="0" style="left: 31.1%; top: 46%;"></div> 
+        <div id="115" class="dot" data-map-index="0" style="left: 31.1%; top: 33%;"></div> 
+        <div id="114" class="dot" data-map-index="0" style="left: 38.1%; top: 32.5%;"></div> 
+        <div id="113" class="dot" data-map-index="0" style="left: 44.5%; top: 32.5%;"></div> 
+        <div id="112" class="dot" data-map-index="0" style="left: 51.8%; top: 32.5%;"></div> 
+        <div id="Cafe" class="dot" data-map-index="0" style="left: 80%; top: 27.5%;"></div> 
+        <div id="175C" class="dot" data-map-index="0" style="left: 72%; top: 75.7%;"></div> 
+        <div id="175B" class="dot" data-map-index="0" style="left: 79%; top: 75.7%;"></div> 
+        <div id="175A" class="dot" data-map-index="0" style="left: 86%; top: 75.7%;"></div> 
+        <div id="203" class="dot" data-map-index="1" style="left: 28.5%; top: 10%;"></div> 
+        <div id="205" class="dot" data-map-index="1" style="left: 32.9%; top: 13%;"></div> 
+        <div id="208" class="dot" data-map-index="1" style="left: 46.3%; top: 13%;"></div> 
+        <div id="217" class="dot" data-map-index="1" style="left: 46.4%; top: 28.7%;"></div> 
+        <div id="218" class="dot" data-map-index="1" style="left: 39.8%; top: 29.7%;"></div> 
+        <div id="219" class="dot" data-map-index="1" style="left: 32.8%; top: 29.7%;"></div> 
+        <div id="215" class="dot" data-map-index="1" style="left: 52.5%; top: 29.7%;"></div> 
+        <div id="220" class="dot" data-map-index="1" style="left: 26.6%; top: 19.7%;"></div> 
+        <div id="1202" class="dot" data-map-index="1" style="left: 26%; top: 40.5%;"></div> 
+        <div id="1204" class="dot" data-map-index="1" style="left: 26.5%; top: 52.5%;"></div> 
+        <div id="1206" class="dot" data-map-index="1" style="left: 27.5%; top: 64.5%;"></div> 
+        <div id="240" class="dot" data-map-index="1" style="left: 77%; top: 9%;"></div> 
+        <div id="247" class="dot" data-map-index="1" style="left: 75.5%; top: 31.8%;"></div> 
+        <div id="245" class="dot" data-map-index="1" style="left: 81.5%; top: 31%;"></div> 
+        <div id="302" class="dot" data-map-index="2" style="left: 27.4%; top: 16%;"></div> 
+        <div id="304" class="dot" data-map-index="2" style="left: 32.4%; top: 20%;"></div> 
+        <div id="319" class="dot" data-map-index="2" style="left: 32%; top: 41%;"></div> 
+        <div id="318" class="dot" data-map-index="2" style="left: 38.5%; top: 41%;"></div> 
+        <div id="317" class="dot" data-map-index="2" style="left: 44.7%; top: 41%;"></div> 
+        <div id="316" class="dot" data-map-index="2" style="left: 50.7%; top: 41%;"></div> 
+        <div id="309" class="dot" data-map-index="2" style="left: 52.3%; top: 13%;"></div> 
+        <div id="307" class="dot" data-map-index="2" style="left: 45%; top: 19.5%;"></div> 
+        <div id="305" class="dot" data-map-index="2" style="left: 40.5%; top: 11.3%;"></div> 
+        <div id="340" class="dot" data-map-index="2" style="left: 74%; top: 14.3%;"></div> 
+        <div id="346" class="dot" data-map-index="2" style="left: 73.5%; top: 44%;"></div> 
+        <div id="345" class="dot" data-map-index="2" style="left: 78.5%; top: 45%;"></div> 
         <!-- Add more dots as needed -->
     </div>
+
+    <div class="info-container" id="infoContainer">
+        <div class="info-row-title" id="row1"></div>
+        <div class="info-row" id="row2"></div>
+    </div>
+
+    <div id="roomList" class="room-list"></div>
     
     <button id="next-map-btn">Next Floor</button>
 

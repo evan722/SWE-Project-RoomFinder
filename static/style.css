@@ -42,10 +42,83 @@ img {
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    opacity: 0.5;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: grey; /* Default color */
+    cursor: pointer;
+
 }
 
+.dot:hover {
+    border-radius: 200%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+}
+
+/* info container*/
+.info-container {
+    position: absolute; /* Change to absolute positioning */
+    display: none; /* Initially hidden */
+    width: 125px; /* Width of the container */
+    height:50px;
+    background-color: rgba(184, 184, 184, 0.9); /* Slightly transparent background */
+    border: 1px solid #ccc; /* Light gray border */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    z-index: 1000; /* Ensure it appears above other content */
+    transition: none; /* Smooth transition */
+}
+
+.info-container.active {
+    display: block; /* Show when active */
+}
+
+.info-row-title {
+    margin: 1px 0; /* Spacing between rows */
+    font-size: 15px; /* Font size */
+    font-weight: bold;
+    line-height: 1.15; /* Line height for readability */
+    color: #333; /* Text color */
+}
+
+.info-row {
+    margin: 3px 0; /* Spacing between rows */
+    font-size: 11px; /* Font size */
+    line-height: 1.15; /* Line height for readability */
+    color: #333; /* Text color */
+}
+
+.room-list {
+    position: fixed; /* Fixed to the left side */
+    top: 20%; /* Start from the top */
+    left: 15px; /* Margin from the left */
+    width: 200px; /* Width of the container */
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.9); /* Background color */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    max-height: 80vh; /* Maximum height */
+    overflow-y: auto; /* Scroll if content overflows */
+    padding: 10px; /* Padding inside the container */
+    z-index: 998; /* Ensure it appears above other content */
+}
+
+.room-item {
+    width: 190px;
+    height: 40px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(190, 190, 190);
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Change color when hovering */
+.room-item:hover {
+    background-color: rgb(190, 190, 190);
+}
 
 /* Status dot: default styles */
 #status-dot {
