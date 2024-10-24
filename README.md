@@ -27,6 +27,7 @@ source .venv/bin/activate
 
 Install necessary libraries
 ```bash
+cd SWE-Project-RoomFinder
 pip3 install -r requirements.txt
 ```
 
