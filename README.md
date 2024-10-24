@@ -27,9 +27,7 @@ source .venv/bin/activate
 
 Install necessary libraries
 ```bash
-pip3 install pandas
-pip3 install pytz
-pip3 install datetime
+pip3 install -r requirements.txt
 ```
 
 Run the app (paste in terminal)
