@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // SET MESSAGE
                 let message = `nothing`;
                 if (room.available_for===10000) {
-                    message = `<span style="color: green;">Available for the rest of the day</span>`;
+                    message = `<span style="color: green;">Available</span>`;
                 } else if (room.available_for===-1) {
                     message= `<span style="color: red;">Unavailable</span>`;
                 } else {
