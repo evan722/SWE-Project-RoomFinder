@@ -60,7 +60,6 @@ img {
     position: absolute; /* Change to absolute positioning */
     display: none; /* Initially hidden */
     width: 125px; /* Width of the container */
-    height:50px;
     background-color: rgba(184, 184, 184, 0.9); /* Slightly transparent background */
     border: 1px solid #ccc; /* Light gray border */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */

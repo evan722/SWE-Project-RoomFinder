@@ -1,0 +1,243 @@
+,Day,Room,start_time,end_time,Description
+98,0,247,08:55,10:10,English 10A - 4 - Amber Carpenter
+112,0,317,08:55,10:10,Math 3A - 2 - Andrew Alexander
+122,0,208,08:55,10:10,Optics & Astrophysics A - 1 - Barak Yedidia
+134,0,316,08:55,10:10,Math 1A - 4 - Braelyn Riner
+146,0,340,08:55,10:10,History 11 - US History A - 1 - Chelsea Denlow
+152,0,218,08:55,10:10,Adv. Topics in Japanese A - 1 - Chris Scott
+162,0,1106,08:55,10:10,Adv. Literature Seminar - 8 - Claire Yeo
+172,0,112,08:55,10:10,Intro. to Mech Engineering - 1 - Daniel Norgan
+182,0,101,08:55,10:10,Intro. to Drawing - 1 - Danielle Lawrence
+192,0,103,08:55,10:10,Drug Design A - 2 - Francine Farouz
+206,0,318,08:55,10:10,Statistics A - 2 - Ihmar Aldana
+110,0,1103,10:15,11:30,Math 3A - 1 - Andrew Alexander
+120,0,208,10:15,11:30,Modern Physics A - 2 - Barak Yedidia
+132,0,316,10:15,11:30,Math 1A - 3 - Braelyn Riner
+138,0,247,10:15,11:30,Adv. Literature Seminar - 2 - Brianna Beehler
+148,0,346,10:15,11:30,History 11 - US History A - 2 - Chelsea Denlow
+156,0,215,10:15,11:30,Japanamerica - Japanese Pop Culture - 1 - Chris Scott
+184,0,101,10:15,11:30,Intro. to Drawing - 2 - Danielle Lawrence
+194,0,1202,10:15,11:30,Spanish 4A - 1 - Francisco Becerra-Hernandez
+204,0,317,10:15,11:30,Statistics A - 1 - Ihmar Aldana
+220,0,1206,10:15,11:30,Complex Analysis A - 1 - Jana Comstock
+228,0,304,10:15,11:30,Biology Research Teams 1A - 1 - Jehnna Ronan
+80,0,345,12:35,13:50,History 9 - World to 1500 A - 2 - Alex Brocchini
+86,0,318,12:35,13:50,Adv. Literature Seminar - 5 - Allen Frost
+128,0,346,12:35,13:50,History 11 - US History A - 7 - Barry Treseler
+190,0,103,12:35,13:50,Drug Design A - 1 - Francine Farouz
+196,0,1202,12:35,13:50,Spanish 4A - 2 - Francisco Becerra-Hernandez
+212,0,1204,12:35,13:50,Chinese 2A - 1 - Jamie Gao
+232,0,1103,12:35,13:50,Mechanisms of Cancer - 1 - Jehnna Ronan
+240,0,217,12:35,13:50,English 11A - 7 - Jennifer Neubauer
+78,0,245,13:55,15:10,History 9 - World to 1500 A - 1 - Alex Brocchini
+96,0,219,13:55,15:10,English 10A - 3 - Amber Carpenter
+104,0,343B,13:55,15:10,Social Emotional Learning 11A - 2A - Amy Hunt
+106,0,343B,13:55,15:10,Social Emotional Learning 11A - 2B - Amy Hunt
+126,0,345,13:55,15:10,History 11 - US History A - 6 - Barry Treseler
+140,0,247,13:55,15:10,Adv. Literature Seminar - 3 - Brianna Beehler
+154,0,1103,13:55,15:10,Adv. Topics in Japanese A - 2 - Chris Scott
+168,0,112,13:55,15:10,Applied Eng: Biomedical - 1 - Daniel Norgan
+210,0,1206,13:55,15:10,Chinese 1A - 1 - Jamie Gao
+222,0,318,13:55,15:10,Linear Algebra A - 2 - Jana Comstock
+238,0,215,13:55,15:10,English 11A - 6 - Jennifer Neubauer
+26,0,iLab,15:10,16:00,Woodworking Club
+2,0,1105,15:15,15:45,Nueva Clean Energy Investment Club
+5,0,103,15:15,15:45,Chemistry Lab Club
+11,0,245,15:15,15:40,Politics Economics and Philosophy Club (PEPC)
+21,0,343A,15:15,15:45,Creative Writing Club
+23,0,1103,15:15,16:00,Financial Literacy
+25,0,317,15:15,15:45,Math Club
+29,0,318,15:15,16:00,F1 Club
+44,0,217,15:15,15:45,Architecture Club
+58,0,215,15:15,15:45,Yarn Club
+13,1,319,08:15,08:45,DATAS
+82,1,217,08:55,10:10,History 9 - World to 1500 A - 3 - Alex Brocchini
+92,1,343A,08:55,10:10,Creative Writing - 1 - Amber Carpenter
+114,1,318,08:55,10:10,Math 3A - 3 - Andrew Alexander
+144,1,245,08:55,10:10,English 10A - 2 - Brianna Beehler
+160,1,218,08:55,10:10,Japanese 2A - 2 - Chris Scott
+164,1,1206,08:55,10:10,Intro. to Music Production - 1 - Cody Alan
+180,1,101,08:55,10:10,Intro. to Art & Fabrication - 1 - Danielle Lawrence
+188,1,103,08:55,10:10,Chemical Engineering A - 1 - Francine Farouz
+208,1,319,08:55,10:10,Statistics A - 3 - Ihmar Aldana
+218,1,215,08:55,10:10,Abstract Algebra - 1 - Jana Comstock
+226,1,1109,08:55,10:10,Groove Workshop - 1 - Jason Muscat
+88,1,217,10:15,11:30,English 11A - 1 - Allen Frost
+118,1,215,10:15,11:30,Adv. Mechanics A - 2 - Barak Yedidia
+124,1,345,10:15,11:30,History 11 - US History A - 5 - Barry Treseler
+136,1,317,10:15,11:30,Math 2A - 4 - Braelyn Riner
+150,1,318,10:15,11:30,History 10 - Modern World A - 7 - Chelsea Denlow
+158,1,240,10:15,11:30,Japanese 2A - 1 - Chris Scott
+166,1,1206,10:15,11:30,Intro. to Music Production - 2 - Cody Alan
+174,1,1102,10:15,11:30,Design with Impact A - 3A - Daniel Norgan
+176,1,1102,10:15,11:30,Design with Impact A - 3B - Daniel Norgan
+178,1,101,10:15,11:30,Adv. Studio Art A - 1 - Danielle Lawrence
+186,1,103,10:15,11:30,Bioorganic Chemistry A - 1 - Francine Farouz
+230,1,304,10:15,11:30,Biology Research Teams 2A - 2 - Jehnna Ronan
+4,1,1103,11:30,12:30,Nueva Model United Nations Team
+15,1,215,11:30,12:00,Research@Nueva
+20,1,218,11:30,12:00,Youth Design Impact
+77,1,345,11:40,12:20,Card Games Club
+6,1,Art Room,11:45,12:15,Art Club
+27,1,219,11:45,12:30,"S.A.L.T Club (Sea, Air, and Land Transit)"
+36,1,1106,11:45,12:30,Roundtable Club
+46,1,205,11:45,12:15,Physics Club
+51,1,318,11:45,12:30,Human Technology Interaction Club
+57,1,245,11:45,12:30,New Wave Club
+62,1,103,11:45,12:30,Nueva Healthcare Alliance
+73,1,240,11:45,12:30,Applications of AI Club
+28,1,218,12:00,12:30,Mental Health Advocacy Club (MHAC)
+35,1,1105,12:00,12:30,Culinary Culture Club
+47,1,106,12:00,12:30,Aquanauts
+69,1,1206,12:00,12:30,Spanish Club
+84,1,346,12:35,13:50,"Sociocultural Anthropology: Culture, Exchange, Technology Studies - 1 - Alex Brocchini"
+90,1,245,12:35,13:50,English 11A - 2 - Allen Frost
+94,1,343A,12:35,13:50,Creative Writing - 4 - Amber Carpenter
+102,1,1106,12:35,13:50,Intro. to Psychology - 2 - Amy Hunt
+108,1,318,12:35,13:50,Linear Algebra A - 1 - Andrew Alexander
+170,1,112,12:35,13:50,Film & Stage Costume Making - 1 - Daniel Norgan
+200,1,1202,12:35,13:50,Spanish Communication A - 2 - Francisco Becerra-Hernandez
+216,1,247,12:35,13:50,Chinese Literature/Advanced Research A - 2 - Jamie Gao
+234,1,217,12:35,13:50,Adv. Literature Seminar - 6 - Jennifer Neubauer
+100,1,1106,13:55,15:10,Intro. to Psychology - 1 - Amy Hunt
+116,1,208,13:55,15:10,Adv. Mechanics A - 1 - Barak Yedidia
+130,1,346,13:55,15:10,International Relations - 1 - Barry Treseler
+142,1,215,13:55,15:10,English 10A - 1 - Brianna Beehler
+198,1,318,13:55,15:10,Spanish Communication A - 1 - Francisco Becerra-Hernandez
+202,1,240,13:55,15:10,Calculus A - 1 - Ihmar Aldana
+214,1,245,13:55,15:10,Chinese Literature/Advanced Research A - 1 - Jamie Gao
+224,1,1202,13:55,15:10,Math 3A - 4 - Jana Comstock
+236,1,217,13:55,15:10,Adv. Literature Seminar - 7 - Jennifer Neubauer
+19,1,319,15:10,16:00,K-pop Club
+16,1,175C,15:15,16:00,Math Exploration Club
+18,1,iLab,15:15,16:00,Environmental Engineering Club
+45,1,317,15:15,15:45,Full-Stack Club
+48,1,1105,15:15,15:45,Sports Analytics
+52,1,318,15:15,15:45,Neuropsych Club
+53,1,1106,15:15,15:45,The Borscht Club
+68,1,Bay Meadows,15:15,16:15,Flag Football
+74,1,103,15:30,16:15,AP Chemistry Club
+72,2,317,11:35,12:15,The Nueva Promise
+24,2,1102,15:10,15:45,Machine Learning Club
+7,2,Cafe,15:15,15:45,Classical Music Club
+14,2,1204,15:15,16:00,Geography
+22,2,1105,15:15,15:45,Environmental Club
+38,2,1102,15:15,16:00,Nueva Apparel Club
+42,2,iLab,15:15,16:00,Pod Club
+49,2,340,15:15,16:00,Chess Club
+50,2,217,15:15,15:35,Days For Girls Club
+54,2,215,15:15,15:45,Nueva Fishing Club
+59,2,1106,15:15,15:45,Food for Thought
+64,2,307,15:15,16:00,Medical Research (MedR) Club
+65,2,Gym,15:15,15:45,Badminton Club
+37,2,1102 (mostly meets outside of school),16:00,17:00,Girls x Math
+99,3,247,08:55,10:10,English 10A - 4 - Amber Carpenter
+113,3,317,08:55,10:10,Math 3A - 2 - Andrew Alexander
+123,3,208,08:55,10:10,Optics & Astrophysics A - 1 - Barak Yedidia
+135,3,316,08:55,10:10,Math 1A - 4 - Braelyn Riner
+147,3,340,08:55,10:10,History 11 - US History A - 1 - Chelsea Denlow
+153,3,218,08:55,10:10,Adv. Topics in Japanese A - 1 - Chris Scott
+163,3,1106,08:55,10:10,Adv. Literature Seminar - 8 - Claire Yeo
+173,3,112,08:55,10:10,Intro. to Mech Engineering - 1 - Daniel Norgan
+183,3,101,08:55,10:10,Intro. to Drawing - 1 - Danielle Lawrence
+193,3,103,08:55,10:10,Drug Design A - 2 - Francine Farouz
+207,3,318,08:55,10:10,Statistics A - 2 - Ihmar Aldana
+111,3,1103,10:15,11:30,Math 3A - 1 - Andrew Alexander
+121,3,208,10:15,11:30,Modern Physics A - 2 - Barak Yedidia
+133,3,316,10:15,11:30,Math 1A - 3 - Braelyn Riner
+139,3,247,10:15,11:30,Adv. Literature Seminar - 2 - Brianna Beehler
+149,3,346,10:15,11:30,History 11 - US History A - 2 - Chelsea Denlow
+157,3,215,10:15,11:30,Japanamerica - Japanese Pop Culture - 1 - Chris Scott
+185,3,101,10:15,11:30,Intro. to Drawing - 2 - Danielle Lawrence
+195,3,1202,10:15,11:30,Spanish 4A - 1 - Francisco Becerra-Hernandez
+205,3,317,10:15,11:30,Statistics A - 1 - Ihmar Aldana
+221,3,1206,10:15,11:30,Complex Analysis A - 1 - Jana Comstock
+229,3,304,10:15,11:30,Biology Research Teams 1A - 1 - Jehnna Ronan
+71,3,,11:45,12:15,Food Science
+81,3,345,12:35,13:50,History 9 - World to 1500 A - 2 - Alex Brocchini
+87,3,318,12:35,13:50,Adv. Literature Seminar - 5 - Allen Frost
+129,3,346,12:35,13:50,History 11 - US History A - 7 - Barry Treseler
+191,3,103,12:35,13:50,Drug Design A - 1 - Francine Farouz
+197,3,1202,12:35,13:50,Spanish 4A - 2 - Francisco Becerra-Hernandez
+213,3,1204,12:35,13:50,Chinese 2A - 1 - Jamie Gao
+233,3,1103,12:35,13:50,Mechanisms of Cancer - 1 - Jehnna Ronan
+241,3,217,12:35,13:50,English 11A - 7 - Jennifer Neubauer
+79,3,245,13:55,15:10,History 9 - World to 1500 A - 1 - Alex Brocchini
+97,3,219,13:55,15:10,English 10A - 3 - Amber Carpenter
+105,3,343B,13:55,15:10,Social Emotional Learning 11A - 2A - Amy Hunt
+107,3,343B,13:55,15:10,Social Emotional Learning 11A - 2B - Amy Hunt
+127,3,345,13:55,15:10,History 11 - US History A - 6 - Barry Treseler
+141,3,247,13:55,15:10,Adv. Literature Seminar - 3 - Brianna Beehler
+155,3,1103,13:55,15:10,Adv. Topics in Japanese A - 2 - Chris Scott
+169,3,112,13:55,15:10,Applied Eng: Biomedical - 1 - Daniel Norgan
+211,3,1206,13:55,15:10,Chinese 1A - 1 - Jamie Gao
+223,3,318,13:55,15:10,Linear Algebra A - 2 - Jana Comstock
+239,3,215,13:55,15:10,English 11A - 6 - Jennifer Neubauer
+30,3,247,15:10,16:00,Roblox Club
+66,3,1105,15:10,16:05,D&D Club
+3,3,1106,15:15,15:45,Social Impact Filmmaking Club
+10,3,1102,15:15,15:45,Systema (Supporting Youth STEM Advancement)
+32,3,Music Room,15:15,16:00,Link-age Youth Music
+41,3,245,15:15,15:45,Ye Olde Shakespeare Club
+43,3,1103,15:15,16:15,Equity Education Club
+61,3,240,15:15,16:00,French Club
+70,3,318,15:15,16:00,Art Film Club
+56,3,317,15:20,16:00,CoPo: Collective Poetry Advocation
+83,4,217,08:55,10:10,History 9 - World to 1500 A - 3 - Alex Brocchini
+93,4,343A,08:55,10:10,Creative Writing - 1 - Amber Carpenter
+115,4,318,08:55,10:10,Math 3A - 3 - Andrew Alexander
+145,4,245,08:55,10:10,English 10A - 2 - Brianna Beehler
+161,4,218,08:55,10:10,Japanese 2A - 2 - Chris Scott
+165,4,1206,08:55,10:10,Intro. to Music Production - 1 - Cody Alan
+181,4,101,08:55,10:10,Intro. to Art & Fabrication - 1 - Danielle Lawrence
+189,4,103,08:55,10:10,Chemical Engineering A - 1 - Francine Farouz
+209,4,319,08:55,10:10,Statistics A - 3 - Ihmar Aldana
+219,4,215,08:55,10:10,Abstract Algebra - 1 - Jana Comstock
+227,4,1109,08:55,10:10,Groove Workshop - 1 - Jason Muscat
+89,4,217,10:15,11:30,English 11A - 1 - Allen Frost
+119,4,215,10:15,11:30,Adv. Mechanics A - 2 - Barak Yedidia
+125,4,345,10:15,11:30,History 11 - US History A - 5 - Barry Treseler
+137,4,317,10:15,11:30,Math 2A - 4 - Braelyn Riner
+151,4,318,10:15,11:30,History 10 - Modern World A - 7 - Chelsea Denlow
+159,4,240,10:15,11:30,Japanese 2A - 1 - Chris Scott
+167,4,1206,10:15,11:30,Intro. to Music Production - 2 - Cody Alan
+175,4,1102,10:15,11:30,Design with Impact A - 3A - Daniel Norgan
+177,4,1102,10:15,11:30,Design with Impact A - 3B - Daniel Norgan
+179,4,101,10:15,11:30,Adv. Studio Art A - 1 - Danielle Lawrence
+187,4,103,10:15,11:30,Bioorganic Chemistry A - 1 - Francine Farouz
+231,4,304,10:15,11:30,Biology Research Teams 2A - 2 - Jehnna Ronan
+39,4,1103,11:30,12:00,Magical Bridge Music
+40,4,101,11:30,12:30,Needle Felting
+55,4,1202,11:35,12:05,Programming Club
+31,4,Gym (split with Basketball Club),11:45,12:30,Climbing Club
+60,4,,11:45,12:30,Pool/Billiards Club
+75,4,iLab,11:45,12:30,Rocketry Club
+76,4,175B,11:45,12:30,Music Production Club (MPC)
+33,4,215,12:00,12:30,Origami Club
+67,4,219,12:00,12:30,Service and Micro-financing
+85,4,346,12:35,13:50,"Sociocultural Anthropology: Culture, Exchange, Technology Studies - 1 - Alex Brocchini"
+91,4,245,12:35,13:50,English 11A - 2 - Allen Frost
+95,4,343A,12:35,13:50,Creative Writing - 4 - Amber Carpenter
+103,4,1106,12:35,13:50,Intro. to Psychology - 2 - Amy Hunt
+109,4,318,12:35,13:50,Linear Algebra A - 1 - Andrew Alexander
+171,4,112,12:35,13:50,Film & Stage Costume Making - 1 - Daniel Norgan
+201,4,1202,12:35,13:50,Spanish Communication A - 2 - Francisco Becerra-Hernandez
+217,4,247,12:35,13:50,Chinese Literature/Advanced Research A - 2 - Jamie Gao
+235,4,217,12:35,13:50,Adv. Literature Seminar - 6 - Jennifer Neubauer
+101,4,1106,13:55,15:10,Intro. to Psychology - 1 - Amy Hunt
+117,4,208,13:55,15:10,Adv. Mechanics A - 1 - Barak Yedidia
+131,4,346,13:55,15:10,International Relations - 1 - Barry Treseler
+143,4,215,13:55,15:10,English 10A - 1 - Brianna Beehler
+199,4,318,13:55,15:10,Spanish Communication A - 1 - Francisco Becerra-Hernandez
+203,4,240,13:55,15:10,Calculus A - 1 - Ihmar Aldana
+215,4,245,13:55,15:10,Chinese Literature/Advanced Research A - 1 - Jamie Gao
+225,4,1202,13:55,15:10,Math 3A - 4 - Jana Comstock
+237,4,217,13:55,15:10,Adv. Literature Seminar - 7 - Jennifer Neubauer
+1,4,319,15:10,16:00,Board Game Club
+0,4,217,15:15,16:15,Mock Trial
+12,4,106,15:15,16:00,Future Problem Solving
+17,4,318,15:15,15:45,Kindness Club
+34,4,218,15:15,15:45,Mahjong Club
+8,4,219,15:30,16:30,Business Innovators Club
+63,4,205,15:30,16:30,Research Incubator
+9,4,iLab,16:00,18:00,Bot Provoking (Robotics)

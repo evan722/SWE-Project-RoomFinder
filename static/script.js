@@ -114,6 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Update the info container with new text
             document.getElementById('row1').textContent = 'Room ' + data['room_name'];
             document.getElementById('row2').textContent = data['message'];
+            document.getElementById('row3').textContent = data['activity'];
 
             const rect = dot.getBoundingClientRect();
 
