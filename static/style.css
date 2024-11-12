@@ -88,11 +88,18 @@ img {
     color: #333; /* Text color */
 }
 
+#searchInput {
+    position: fixed;
+    top: 17%;
+    left: 15px; /* space between input and container */
+    width: 160px;
+}
+
 .room-list {
     position: fixed; /* Fixed to the left side */
     top: 20%; /* Start from the top */
     left: 15px; /* Margin from the left */
-    width: 200px; /* Width of the container */
+    width: 150px; /* Width of the container */
     height: 500px;
     background-color: rgba(255, 255, 255, 0.9); /* Background color */
     border: 1px solid #ccc; /* Light gray border */
@@ -100,23 +107,41 @@ img {
     max-height: 80vh; /* Maximum height */
     overflow-y: auto; /* Scroll if content overflows */
     padding: 10px; /* Padding inside the container */
-    z-index: 998; /* Ensure it appears above other content */
+    z-index: 500; /* Ensure it appears above other content */
 }
 
 .room-item {
-    width: 190px;
+    width: 140px;
     height: 40px;
     font-size: 14px;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(190, 190, 190);
     margin: 3px;
     border-radius: 5px;
+    text-align: center;
     cursor: pointer;
 }
 
-/* Change color when hovering */
 .room-item:hover {
     background-color: rgb(190, 190, 190);
+}
+
+.reserve-button {
+    display: block;        /* Make the button a block element */
+    margin: 0 auto;
+    margin-top: 10px;  
+    width: 70px;
+    height: 20px;
+    font-size: 14px;
+    background-color: #ffdb58;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.reserve-button:hover {
+    background-color: rgb(48, 255, 48);
 }
 
 /* Status dot: default styles */

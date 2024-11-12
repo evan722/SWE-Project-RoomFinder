@@ -16,6 +16,7 @@ class Classroom:
         x=datetime.strptime(get_now()[0], time_format)
         list_estimate=0
         activity = ''
+        activity2 = ''
 
         if weekday_av==[]: # available the entire day
             message = "Available for the rest of the day."
@@ -30,6 +31,7 @@ class Classroom:
                     difference=interval[1] - x
                     estimate=int(difference.total_seconds() / 60)
                     activity = f'Ongoing: {interval[2]}'
+                    activity2 = interval[2]
                     list_estimate=-1
                     message = f"Available in {estimate} minutes (at {interval[1].hour}:{interval[1].minute:02d})."
                 elif self.currently_av==1: # available for limited time
@@ -38,9 +40,23 @@ class Classroom:
                         estimate=int(difference.total_seconds() / 60)
                         list_estimate=estimate
                         activity = f'In {estimate} minutes: {interval[2]}'
+                        activity2 = interval[2]
                         message = f"Available until {interval[0].hour}:{interval[0].minute:02d}."
             if message == "":
                 message = "Available for the rest of the day."
+                activity = ""
+                activity2 = ""
                 list_estimate=10000
         
-        return [self.currently_av, message, list_estimate, activity]
+        return [self.currently_av, message, list_estimate, activity, activity2]
+    
+    def make_res(self, name, end):
+        time_format="%H:%M"
+        x=datetime.strptime(get_now()[0], time_format)
+        weekday_avs = self.avs[get_now()[1]]
+        for interval in range(weekday_avs):
+            if interval[1] >= end:
+                weekday_avs.insert(weekday_avs.index(interval)+1, [x, end, name])
+
+
+

@@ -17,7 +17,8 @@ def update_av(room: str):
     return jsonify({
         'room_name': classroom_dict[room].room_name,
         'message': update[1],
-        'activity': update[3]        
+        'activity': update[3],
+        'activity2': update[4]        
     })
 
 # get all availabilities
